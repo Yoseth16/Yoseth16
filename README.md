@@ -68,19 +68,6 @@
 
 ---
 
-<h2 id="estadisticas">📊 Estadísticas | Stats</h2>
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Yoseth16&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Estadísticas de Yoseth" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yoseth16&layout=compact&theme=tokyonight&hide_border=true" alt="Lenguajes más usados" />
-  <br><br>
-  <a href="https://git.io/streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=Yoseth16&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-  </a>
-</div>
-
----
-
 <h2 id="contacto">🌐 Conecta conmigo | Connect with me</h2>
 
 <p align="left">
