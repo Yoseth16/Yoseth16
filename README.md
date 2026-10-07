@@ -22,12 +22,12 @@ Technology content is spread across too many sources to follow. NotiTech is a te
 - **AI as a stage.** Classification and summarization are one step of the pipeline, and the results are stored in PostgreSQL through Supabase.
 - **Separated services.** A FastAPI backend sits between the data and a Next.js / TypeScript frontend, with Docker for the environment.
 
-Status: in active development. <!-- Add the NotiTech repo / demo link here once it is public. -->
+Status: in active development.
 
 ## Other work
 
 - **[DAWSCAPE](http://dawscape.fun)** (Laravel). A complete web application: a digital escape room for XTART students, played from a phone. Nine sequential challenges mix riddles, physical clue hunting, QR codes and interactive puzzles. It includes an admin panel, a real-time leaderboard made to be projected on a TV, personalized diplomas and a rating system, all under a terminal aesthetic.
-- **Portfolio** (Next.js, TypeScript, Tailwind CSS). Personal site that presents my projects and work, built around a few Apple-inspired principles: generous space, strong hierarchy, subtle motion. <!-- Link the live portfolio here once the URL is confirmed. -->
+- **Portfolio** (Next.js, TypeScript, Tailwind CSS). Personal site that presents my projects and work, built around a few Apple-inspired principles: generous space, strong hierarchy, subtle motion.
 
 ## Stack
 
