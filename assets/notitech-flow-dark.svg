@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="200" viewBox="0 0 1000 200" role="img" aria-label="NotiTech data flow: RSS feeds, Python and AI processing, PostgreSQL via Supabase, FastAPI, Next.js.">
+  <title>NotiTech data flow</title>
+  <style>
+  @keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .3 } }
+  @keyframes signal { 0%,60%,100% { opacity: .25 } 20% { opacity: 1 } }
+  @keyframes flow { to { stroke-dashoffset: -16 } }
+  .pulse { animation: pulse 2.4s ease-in-out infinite }
+  .sig { animation: signal 3.6s ease-in-out infinite }
+  .flow { stroke-dasharray: 4 4; animation: flow 1.4s linear infinite }
+  @media (prefers-reduced-motion: reduce) { .pulse, .sig, .flow { animation: none } }
+</style>
+  <rect x="0.5" y="0.5" width="999" height="199" rx="20" fill="#0A0A0B" stroke="#27272A"/>
+  <text x="34" y="38" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#A1A1AA">NOTITECH  /  DATA FLOW</text>
+  <rect x="34" y="62" width="156" height="98" rx="14" fill="#111113" stroke="#27272A" stroke-width="1"/>
+  <text x="50" y="90" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="1" fill="#71717A">01  SOURCES</text>
+  <text x="50" y="122" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" letter-spacing="-0.3" fill="#FAFAFA">RSS feeds</text>
+  <text x="50" y="144" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#A1A1AA">external APIs</text>
+  <line class="flow" x1="196" y1="111.0" x2="218" y2="111.0" stroke="#A1A1AA" stroke-width="1.5"/>
+  <path d="M216 107.0 L222 111.0 L216 115.0" fill="none" stroke="#A1A1AA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="228" y="62" width="156" height="98" rx="14" fill="#111113" stroke="#5B8DFF" stroke-width="1.5"/>
+  <text x="244" y="90" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="1" fill="#5B8DFF">02  PROCESSING</text>
+  <text x="244" y="122" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" letter-spacing="-0.3" fill="#FAFAFA">Python + AI</text>
+  <text x="244" y="144" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#A1A1AA">classify · summarize</text>
+  <line class="flow" x1="390" y1="111.0" x2="412" y2="111.0" stroke="#A1A1AA" stroke-width="1.5"/>
+  <path d="M410 107.0 L416 111.0 L410 115.0" fill="none" stroke="#A1A1AA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="422" y="62" width="156" height="98" rx="14" fill="#111113" stroke="#27272A" stroke-width="1"/>
+  <text x="438" y="90" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="1" fill="#71717A">03  STORAGE</text>
+  <text x="438" y="122" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" letter-spacing="-0.3" fill="#FAFAFA">PostgreSQL</text>
+  <text x="438" y="144" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#A1A1AA">via Supabase</text>
+  <line class="flow" x1="584" y1="111.0" x2="606" y2="111.0" stroke="#A1A1AA" stroke-width="1.5"/>
+  <path d="M604 107.0 L610 111.0 L604 115.0" fill="none" stroke="#A1A1AA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="616" y="62" width="156" height="98" rx="14" fill="#111113" stroke="#27272A" stroke-width="1"/>
+  <text x="632" y="90" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="1" fill="#71717A">04  API</text>
+  <text x="632" y="122" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" letter-spacing="-0.3" fill="#FAFAFA">FastAPI</text>
+  <text x="632" y="144" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#A1A1AA">Python</text>
+  <line class="flow" x1="778" y1="111.0" x2="800" y2="111.0" stroke="#A1A1AA" stroke-width="1.5"/>
+  <path d="M798 107.0 L804 111.0 L798 115.0" fill="none" stroke="#A1A1AA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="810" y="62" width="156" height="98" rx="14" fill="#111113" stroke="#27272A" stroke-width="1"/>
+  <text x="826" y="90" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="1" fill="#71717A">05  INTERFACE</text>
+  <text x="826" y="122" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" letter-spacing="-0.3" fill="#FAFAFA">Next.js</text>
+  <text x="826" y="144" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#A1A1AA">React · TypeScript</text>
+  <text x="34" y="184" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="0.6" fill="#71717A">raw content  →  structured, classified, summarized  →  served to the interface</text>
+</svg>

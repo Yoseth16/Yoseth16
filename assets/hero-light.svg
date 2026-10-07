@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" role="img" aria-label="Yoseth Lopez. I build web products end to end, from the data pipeline to the interface.">
+  <title>Yoseth Lopez</title>
+  <style>
+  @keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .3 } }
+  @keyframes signal { 0%,60%,100% { opacity: .25 } 20% { opacity: 1 } }
+  @keyframes flow { to { stroke-dashoffset: -16 } }
+  .pulse { animation: pulse 2.4s ease-in-out infinite }
+  .sig { animation: signal 3.6s ease-in-out infinite }
+  .flow { stroke-dasharray: 4 4; animation: flow 1.4s linear infinite }
+  @media (prefers-reduced-motion: reduce) { .pulse, .sig, .flow { animation: none } }
+</style>
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="#0A0A0B" fill-opacity="0.07"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#fff" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="m"><rect width="1000" height="340" fill="url(#fade)"/></mask>
+  </defs>
+  <rect x="0.5" y="0.5" width="999" height="339" rx="20" fill="#FAFAFA" stroke="#E4E4E7"/>
+  <rect x="1" y="1" width="998" height="338" rx="19" fill="url(#dots)" mask="url(#m)"/>
+
+  <circle class="pulse" cx="60" cy="68" r="4" fill="#2F6BFF"/>
+  <text x="76" y="72" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" letter-spacing="0.6" fill="#52525B">building NotiTech</text>
+
+  <text x="56" y="176" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="78" font-weight="600" letter-spacing="-2.4" fill="#0A0A0B">Yoseth Lopez</text>
+  <text x="58" y="224" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="25" fill="#52525B">I build web products end to end,</text>
+  <text x="58" y="256" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="25" fill="#52525B">from the data pipeline to the interface.</text>
+
+  <line x1="640" y1="170" x2="940" y2="170" stroke="#D4D4D8" stroke-width="1.5"/>
+  <line class="flow" x1="640" y1="170" x2="940" y2="170" stroke="#2F6BFF" stroke-opacity="0.55" stroke-width="1.5"/>
+  <circle class="sig" style="animation-delay:0.00s" cx="640" cy="170" r="6" fill="#FAFAFA" stroke="#52525B" stroke-width="1.5"/>
+    <circle class="sig" style="animation-delay:0.45s" cx="720" cy="170" r="6" fill="#FAFAFA" stroke="#52525B" stroke-width="1.5"/>
+    <circle class="sig" style="animation-delay:0.90s" cx="800" cy="170" r="6" fill="#FAFAFA" stroke="#52525B" stroke-width="1.5"/>
+    <circle class="sig" style="animation-delay:1.35s" cx="880" cy="170" r="6" fill="#FAFAFA" stroke="#52525B" stroke-width="1.5"/>
+    <circle class="sig" style="animation-delay:1.80s" cx="940" cy="170" r="6" fill="#2F6BFF" stroke="#2F6BFF" stroke-width="1.5"/>
+    
+  <text x="58" y="304" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" letter-spacing="1.4" fill="#8B8B94">FULL-STACK  /  APPLIED AI  /  WEB PRODUCTS</text>
+</svg>

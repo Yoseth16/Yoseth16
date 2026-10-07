@@ -1,71 +1,71 @@
-# ¡Hola, soy Yoseth Trejos Lopez!
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img alt="Yoseth Lopez. I build web products end to end, from the data pipeline to the interface." src="assets/hero-light.svg" width="100%">
+</picture>
 
-**[Español](#español) | [English](#english)**
+<br>
 
----
+Full-stack developer working with TypeScript, Python and PostgreSQL. I'm drawn to projects where the hard part isn't the screen but everything behind it: messy data coming in, AI making sense of it, an API that stays predictable, an interface that makes it all legible.
 
-<h2 id="español">Sobre mí</h2>
+I'm completing a Higher Degree in Web Application Development (DAW). The projects below are where most of the real learning happens.
 
-* Tengo **20 años** y soy un apasionado de la programación.
-* Actualmente estoy cursando el **1er año del Grado Superior de Desarrollo de Aplicaciones Web (DAW)** (Promoción 2025-2027).
-* Me encanta mantenerme al día con las últimas **innovaciones tecnológicas** y aprender cosas nuevas cada día.
-* Mi meta profesional es terminar DAW y luego realizar una **especialización en Ciberseguridad**.
-* Cómo contactarme: a través de mi [LinkedIn](https://www.linkedin.com/in/yoseth-trejos) o escribiéndome directamente a mi correo: **yosethtrejos16@gmail.com**
+<br>
 
-### Proyecto Destacado: DAWSCAPE
+## Currently building
 
-> *Visita el proyecto en: [dawscape.fun](http://dawscape.fun)*
+### NotiTech
 
-**DAWSCAPE** es un Escape Room digital desarrollado en Laravel para estudiantes del instituto XTART.
+A tech radar. NotiTech gathers technology content from multiple sources and uses AI to classify and summarize it, so a constant stream of news becomes something you can scan and filter.
 
-* Los participantes resuelven **9 pruebas secuenciales** desde su móvil que combinan acertijos lógicos, búsqueda física de pistas por el edificio, escaneo de códigos QR y retos interactivos como Simon Dice.
-* El sistema incluye un panel de administración completo, un **ranking en tiempo real proyectable en TV con temática hacker**, generación de diplomas personalizados y un sistema de valoraciones.
-* Todo el juego transcurre bajo una **estética de terminal hacker** con música de fondo y efectos visuales.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/notitech-flow-dark.svg">
+  <img alt="NotiTech data flow: RSS feeds, Python and AI processing, PostgreSQL via Supabase, FastAPI, Next.js." src="assets/notitech-flow-light.svg" width="100%">
+</picture>
 
----
+What the project is about:
 
-<h2 id="english">About me</h2>
+- Turning inconsistent, unstructured feeds into a clean, queryable data model.
+- Using AI as a processing step (classification and summarization), not as a gimmick on top.
+- Keeping the boundary between the FastAPI backend and the Next.js frontend clean and typed.
 
-* I'm **20 years old** and a passionate programmer.
-* Currently in my **1st year of Web Application Development (DAW) Higher Degree** (Class of 2025-2027).
-* I love staying up-to-date with the latest **technological innovations** and learning new things every day.
-* My professional goal is to complete DAW and then pursue a **specialization in Cybersecurity**.
-* Contact me: via my [LinkedIn](https://www.linkedin.com/in/yoseth-trejos) or by emailing me directly at: **yosethtrejos16@gmail.com**
+Status: in active development. <!-- Add the NotiTech repo / demo link here once it is public. -->
 
-### Featured Project: DAWSCAPE
+<br>
 
-> *Visit the project at: [dawscape.fun](http://dawscape.fun)*
+## Selected work
 
-**DAWSCAPE** is a digital Escape Room developed in Laravel for students at the XTART institute.
+| Project | What it is | Built with |
+| :-- | :-- | :-- |
+| **[DAWSCAPE](http://dawscape.fun)** | A digital escape room for XTART students. Nine sequential challenges mixing riddles, physical clue hunting and QR codes, played from a phone. Includes an admin panel, a real-time leaderboard designed to be projected on a TV, personalized diplomas and a rating system, all under a terminal / hacker aesthetic. | Laravel |
+| **Portfolio** | Personal site that presents my projects and work. Designed around a few Apple-inspired principles: generous space, strong type hierarchy, restrained motion. | Next.js, TypeScript, Tailwind CSS |
 
-* Participants solve **9 sequential challenges** from their mobile devices, combining logic puzzles, physical clue hunting within the building, QR code scanning, and interactive challenges like Simon Says.
-* The system includes a comprehensive admin panel, a **real-time hacker-themed ranking system (projectable on TV)**, custom diploma generation, and a rating system.
-* The entire game takes place within a **hacker terminal aesthetic**, featuring background music and visual effects.
+<br>
 
----
+## Stack
 
-<h2 id="herramientas">Herramientas y Tecnologías | Tools & Technologies</h2>
+What I build with today.
 
-### En proceso (DAW)
-<p align="left">
-  <a href="https://skillicons.dev" target="_blank">
-    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nodejs,laravel,git,github,mysql,vscode" alt="Habilidades Actuales" />
-  </a>
-</p>
+| Layer | Tools |
+| :-- | :-- |
+| Interface | TypeScript, JavaScript, React, Next.js, Tailwind CSS |
+| Backend | Python, FastAPI, Node.js, Laravel |
+| Data | SQL, PostgreSQL, Supabase |
+| Delivery | Docker, Git, GitHub |
 
-### Intereses (Ciberseguridad)
-<p align="left">
-  <a href="https://skillicons.dev" target="_blank">
-    <img src="https://skillicons.dev/icons?i=python,bash,linux,docker,kali" alt="Intereses Ciberseguridad" />
-  </a>
-</p>
+<br>
 
----
+## Exploring
 
-<h2 id="contacto">Conecta conmigo | Connect with me</h2>
+Not claiming these yet. This is where my time is going next.
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/yoseth-trejos" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-</p>
+- **Applied AI.** LLMs, embeddings, RAG and agents: moving from calling a model to building systems that retrieve, ground and act.
+- **Infrastructure.** Linux and deployment: understanding what runs under an app once it leaves localhost.
+- **Cybersecurity.** A long-term direction: knowing how things break in order to build them properly.
+
+<br>
+
+## Contact
+
+If you want to talk about a project, an idea or something I've built, reach out.
+
+[LinkedIn](https://www.linkedin.com/in/yoseth-trejos) &nbsp;·&nbsp; [yosethtrejos16@gmail.com](mailto:yosethtrejos16@gmail.com)
