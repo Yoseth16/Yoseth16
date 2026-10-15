@@ -1,41 +1,88 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="310" viewBox="0 0 1000 310" role="img" aria-label="Yoseth Lopez. I build web products end to end, from the data pipeline to the interface.">
-  <title>Yoseth Lopez</title>
-  <style>
-  @keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .3 } }
-  @keyframes signal { 0%,60%,100% { opacity: .25 } 20% { opacity: 1 } }
-  @keyframes flow { to { stroke-dashoffset: -16 } }
-  .pulse { animation: pulse 2.4s ease-in-out infinite }
-  .sig { animation: signal 3.6s ease-in-out infinite }
-  .flow { stroke-dasharray: 4 4; animation: flow 1.4s linear infinite }
-  @media (prefers-reduced-motion: reduce) { .pulse, .sig, .flow { animation: none } }
-</style>
-  <defs>
-    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.2" fill="#0A0A0B" fill-opacity="0.07"/>
-    </pattern>
-    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
-      <stop offset="0.55" stop-color="#fff" stop-opacity="0.2"/>
-      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
-    </linearGradient>
-    <mask id="m"><rect width="1000" height="310" fill="url(#fade)"/></mask>
-  </defs>
-  <rect x="0.5" y="0.5" width="999" height="309" rx="20" fill="#FAFAFA" stroke="#E4E4E7"/>
-  <rect x="1" y="1" width="998" height="308" rx="19" fill="url(#dots)" mask="url(#m)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-label="Yoseth Lopez. I build web products end to end, from the data pipeline to the interface.">
+<title>Yoseth Lopez</title>
+<style>@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}@keyframes signal{0%,60%,100%{opacity:.3}20%{opacity:1}}@keyframes flow{to{stroke-dashoffset:-16}}@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}@keyframes core{0%,100%{transform:scale(1)}50%{transform:scale(1.25)}}@keyframes scan{0%{transform:translateY(-10px)}100%{transform:translateY(370px)}}.pulse{animation:pulse 2.4s ease-in-out infinite}.sig{animation:signal 3.6s ease-in-out infinite}.flow{stroke-dasharray:4 4;animation:flow 1.4s linear infinite}.cur{animation:blink 1s steps(1) infinite}.core{transform-box:fill-box;transform-origin:center;animation:core 3s ease-in-out infinite}.scan{animation:scan 7s linear infinite}@media (prefers-reduced-motion:reduce){.pulse,.sig,.flow,.cur,.core,.scan{animation:none}}</style>
+<defs>
+<clipPath id="frame"><rect width="1000" height="360" rx="20"/></clipPath>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
+<filter id="glow" x="-300%" y="-300%" width="700%" height="700%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.2" fill="#000000" fill-opacity="0.12"/></pattern>
+<radialGradient id="vig" cx="0.5" cy="0.5" r="0.75"><stop offset="0.35" stop-color="#fff" stop-opacity="1"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<mask id="dm"><rect width="1000" height="360" fill="url(#vig)"/></mask>
+<linearGradient id="scanG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2563EB" stop-opacity="0"/><stop offset="1" stop-color="#2563EB" stop-opacity="0.18"/></linearGradient>
+<linearGradient id="name" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1000" y2="0">
+<stop offset="0" stop-color="#09090B"/><stop offset="0.30" stop-color="#09090B"/><stop offset="0.42" stop-color="#0891B2"/><stop offset="0.50" stop-color="#2563EB"/><stop offset="0.58" stop-color="#7C3AED"/><stop offset="0.70" stop-color="#09090B"/><stop offset="1" stop-color="#09090B"/>
+<animateTransform attributeName="gradientTransform" type="translate" dur="7s" repeatCount="indefinite" keyTimes="0;0.6;1" values="-520 0;240 0;240 0"/>
+</linearGradient>
+<clipPath id="c0"><rect x="90" y="196" height="40" width="288.0"><animate attributeName="width" dur="17.6s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.00000;0.01136;0.01449;0.01761;0.02074;0.02386;0.02699;0.03011;0.03324;0.03636;0.03949;0.04261;0.04574;0.04886;0.05199;0.05511;0.05824;0.06136;0.06449;0.06761;0.07074;0.07386;0.17216;0.17386;0.17557;0.17727;0.17898;0.18068;0.18239;0.18409;0.18580;0.18750;0.18920;0.19091;0.19261;0.19432;0.19602;0.19773;0.19943;0.20114;0.20284;0.20455" values="0.00;0.00;14.40;28.80;43.20;57.60;72.00;86.40;100.80;115.20;129.60;144.00;158.40;172.80;187.20;201.60;216.00;230.40;244.80;259.20;273.60;288.00;273.60;259.20;244.80;230.40;216.00;201.60;187.20;172.80;158.40;144.00;129.60;115.20;100.80;86.40;72.00;57.60;43.20;28.80;14.40;0.00"/></rect></clipPath>
+<clipPath id="c1"><rect x="90" y="196" height="40" width="0.0"><animate attributeName="width" dur="17.6s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.00000;0.26136;0.26449;0.26761;0.27074;0.27386;0.27699;0.28011;0.28324;0.28636;0.28949;0.29261;0.29574;0.29886;0.30199;0.30511;0.30824;0.31136;0.31449;0.31761;0.32074;0.41903;0.42074;0.42244;0.42415;0.42585;0.42756;0.42926;0.43097;0.43267;0.43438;0.43608;0.43778;0.43949;0.44119;0.44290;0.44460;0.44631;0.44801;0.44972" values="0.00;0.00;14.40;28.80;43.20;57.60;72.00;86.40;100.80;115.20;129.60;144.00;158.40;172.80;187.20;201.60;216.00;230.40;244.80;259.20;273.60;259.20;244.80;230.40;216.00;201.60;187.20;172.80;158.40;144.00;129.60;115.20;100.80;86.40;72.00;57.60;43.20;28.80;14.40;0.00"/></rect></clipPath>
+<clipPath id="c2"><rect x="90" y="196" height="40" width="0.0"><animate attributeName="width" dur="17.6s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.00000;0.51136;0.51449;0.51761;0.52074;0.52386;0.52699;0.53011;0.53324;0.53636;0.53949;0.54261;0.54574;0.54886;0.55199;0.55511;0.55824;0.56136;0.56449;0.56761;0.57074;0.57386;0.57699;0.58011;0.58324;0.58636;0.58949;0.68778;0.68949;0.69119;0.69290;0.69460;0.69631;0.69801;0.69972;0.70142;0.70312;0.70483;0.70653;0.70824;0.70994;0.71165;0.71335;0.71506;0.71676;0.71847;0.72017;0.72187;0.72358;0.72528;0.72699;0.72869" values="0.00;0.00;14.40;28.80;43.20;57.60;72.00;86.40;100.80;115.20;129.60;144.00;158.40;172.80;187.20;201.60;216.00;230.40;244.80;259.20;273.60;288.00;302.40;316.80;331.20;345.60;360.00;345.60;331.20;316.80;302.40;288.00;273.60;259.20;244.80;230.40;216.00;201.60;187.20;172.80;158.40;144.00;129.60;115.20;100.80;86.40;72.00;57.60;43.20;28.80;14.40;0.00"/></rect></clipPath>
+<clipPath id="c3"><rect x="90" y="196" height="40" width="0.0"><animate attributeName="width" dur="17.6s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.00000;0.76136;0.76449;0.76761;0.77074;0.77386;0.77699;0.78011;0.78324;0.78636;0.78949;0.79261;0.79574;0.79886;0.80199;0.80511;0.80824;0.81136;0.81449;0.91278;0.91449;0.91619;0.91790;0.91960;0.92131;0.92301;0.92472;0.92642;0.92812;0.92983;0.93153;0.93324;0.93494;0.93665;0.93835;0.94006" values="0.00;0.00;14.40;28.80;43.20;57.60;72.00;86.40;100.80;115.20;129.60;144.00;158.40;172.80;187.20;201.60;216.00;230.40;244.80;230.40;216.00;201.60;187.20;172.80;158.40;144.00;129.60;115.20;100.80;86.40;72.00;57.60;43.20;28.80;14.40;0.00"/></rect></clipPath>
+</defs>
+<rect width="1000" height="360" rx="20" fill="#FFFFFF"/>
+<g clip-path="url(#frame)">
+<g filter="url(#blur)">
+<circle cx="140" cy="40" r="170" fill="#2563EB" fill-opacity="0.20"><animateTransform attributeName="transform" type="translate" dur="14s" repeatCount="indefinite" values="0 0;170 50;60 110;0 0"/></circle>
+<circle cx="820" cy="330" r="200" fill="#7C3AED" fill-opacity="0.16"><animateTransform attributeName="transform" type="translate" dur="18s" repeatCount="indefinite" values="0 0;-150 -70;-50 -20;0 0"/></circle>
+<circle cx="520" cy="90" r="140" fill="#0891B2" fill-opacity="0.12"><animateTransform attributeName="transform" type="translate" dur="16s" repeatCount="indefinite" values="0 0;-130 90;110 60;0 0"/></circle>
+</g>
+<rect width="1000" height="360" fill="url(#dots)" mask="url(#dm)"/>
+<rect class="scan" width="1000" height="10" fill="url(#scanG)"/>
+</g>
+<rect x="0.5" y="0.5" width="999" height="359" rx="20" fill="none" stroke="#E4E4E7"/>
 
-  <circle class="pulse" cx="62" cy="62" r="5" fill="#2F6BFF"/>
-  <text x="80" y="68" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="19" letter-spacing="0.4" fill="#52525B">building NotiTech</text>
+<rect x="54" y="40" width="204" height="34" rx="17" fill="#FAFAFA" fill-opacity="0.8" stroke="#E4E4E7"/>
+<circle class="pulse" cx="76" cy="57" r="4.5" fill="#2563EB"/>
+<text x="92" y="62" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" letter-spacing="0.4" fill="#52525B">building NotiTech</text>
 
-  <text x="54" y="170" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="88" font-weight="600" letter-spacing="-2.8" fill="#0A0A0B">Yoseth Lopez</text>
-  <text x="58" y="226" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="31" fill="#52525B">I build web products end to end,</text>
-  <text x="58" y="266" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="31" fill="#52525B">from the data pipeline to the interface.</text>
+<text x="52" y="160" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="84" font-weight="700" letter-spacing="-3" fill="url(#name)">Yoseth Lopez</text>
 
-  <line x1="640" y1="140" x2="940" y2="140" stroke="#D4D4D8" stroke-width="2"/>
-  <line class="flow" x1="640" y1="140" x2="940" y2="140" stroke="#2F6BFF" stroke-opacity="0.55" stroke-width="2"/>
-  <circle class="sig" style="animation-delay:0.00s" cx="640" cy="140" r="7" fill="#FAFAFA" stroke="#52525B" stroke-width="2"/>
-  <circle class="sig" style="animation-delay:0.45s" cx="720" cy="140" r="7" fill="#FAFAFA" stroke="#52525B" stroke-width="2"/>
-  <circle class="sig" style="animation-delay:0.90s" cx="800" cy="140" r="7" fill="#FAFAFA" stroke="#52525B" stroke-width="2"/>
-  <circle class="sig" style="animation-delay:1.35s" cx="880" cy="140" r="7" fill="#FAFAFA" stroke="#52525B" stroke-width="2"/>
-  <circle class="sig" style="animation-delay:1.80s" cx="940" cy="140" r="7" fill="#2F6BFF" stroke="#2F6BFF" stroke-width="2"/>
-  
+<text x="56" y="222" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="24" fill="#2563EB">$</text>
+<text x="90" y="222" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="24" fill="#09090B" textLength="288.0" lengthAdjust="spacing" clip-path="url(#c0)">Full-stack developer</text>
+<text x="90" y="222" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="24" fill="#09090B" textLength="273.6" lengthAdjust="spacing" clip-path="url(#c1)">Data pipelines + AI</text>
+<text x="90" y="222" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="24" fill="#09090B" textLength="360.0" lengthAdjust="spacing" clip-path="url(#c2)">React · Next.js · FastAPI</text>
+<text x="90" y="222" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="24" fill="#09090B" textLength="244.8" lengthAdjust="spacing" clip-path="url(#c3)">Shipping NotiTech</text>
+<rect class="cur" x="90" y="200" width="3" height="30" rx="1" fill="#2563EB"><animate attributeName="x" dur="17.6s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.00000;0.01136;0.01449;0.01761;0.02074;0.02386;0.02699;0.03011;0.03324;0.03636;0.03949;0.04261;0.04574;0.04886;0.05199;0.05511;0.05824;0.06136;0.06449;0.06761;0.07074;0.07386;0.17216;0.17386;0.17557;0.17727;0.17898;0.18068;0.18239;0.18409;0.18580;0.18750;0.18920;0.19091;0.19261;0.19432;0.19602;0.19773;0.19943;0.20114;0.20284;0.20455;0.26136;0.26449;0.26761;0.27074;0.27386;0.27699;0.28011;0.28324;0.28636;0.28949;0.29261;0.29574;0.29886;0.30199;0.30511;0.30824;0.31136;0.31449;0.31761;0.32074;0.41903;0.42074;0.42244;0.42415;0.42585;0.42756;0.42926;0.43097;0.43267;0.43438;0.43608;0.43778;0.43949;0.44119;0.44290;0.44460;0.44631;0.44801;0.44972;0.51136;0.51449;0.51761;0.52074;0.52386;0.52699;0.53011;0.53324;0.53636;0.53949;0.54261;0.54574;0.54886;0.55199;0.55511;0.55824;0.56136;0.56449;0.56761;0.57074;0.57386;0.57699;0.58011;0.58324;0.58636;0.58949;0.68778;0.68949;0.69119;0.69290;0.69460;0.69631;0.69801;0.69972;0.70142;0.70312;0.70483;0.70653;0.70824;0.70994;0.71165;0.71335;0.71506;0.71676;0.71847;0.72017;0.72187;0.72358;0.72528;0.72699;0.72869;0.76136;0.76449;0.76761;0.77074;0.77386;0.77699;0.78011;0.78324;0.78636;0.78949;0.79261;0.79574;0.79886;0.80199;0.80511;0.80824;0.81136;0.81449;0.91278;0.91449;0.91619;0.91790;0.91960;0.92131;0.92301;0.92472;0.92642;0.92812;0.92983;0.93153;0.93324;0.93494;0.93665;0.93835;0.94006" values="90.00;90.00;104.40;118.80;133.20;147.60;162.00;176.40;190.80;205.20;219.60;234.00;248.40;262.80;277.20;291.60;306.00;320.40;334.80;349.20;363.60;378.00;363.60;349.20;334.80;320.40;306.00;291.60;277.20;262.80;248.40;234.00;219.60;205.20;190.80;176.40;162.00;147.60;133.20;118.80;104.40;90.00;90.00;104.40;118.80;133.20;147.60;162.00;176.40;190.80;205.20;219.60;234.00;248.40;262.80;277.20;291.60;306.00;320.40;334.80;349.20;363.60;349.20;334.80;320.40;306.00;291.60;277.20;262.80;248.40;234.00;219.60;205.20;190.80;176.40;162.00;147.60;133.20;118.80;104.40;90.00;90.00;104.40;118.80;133.20;147.60;162.00;176.40;190.80;205.20;219.60;234.00;248.40;262.80;277.20;291.60;306.00;320.40;334.80;349.20;363.60;378.00;392.40;406.80;421.20;435.60;450.00;435.60;421.20;406.80;392.40;378.00;363.60;349.20;334.80;320.40;306.00;291.60;277.20;262.80;248.40;234.00;219.60;205.20;190.80;176.40;162.00;147.60;133.20;118.80;104.40;90.00;90.00;104.40;118.80;133.20;147.60;162.00;176.40;190.80;205.20;219.60;234.00;248.40;262.80;277.20;291.60;306.00;320.40;334.80;320.40;306.00;291.60;277.20;262.80;248.40;234.00;219.60;205.20;190.80;176.40;162.00;147.60;133.20;118.80;104.40;90.00"/></rect>
+
+<text x="56" y="285" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="26" fill="#52525B">I build web products end to end,</text>
+<text x="56" y="320" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="26" fill="#52525B">from the data pipeline to the interface.</text>
+
+<line class="flow" x1="820" y1="180" x2="710" y2="105" stroke="#E4E4E7" stroke-width="1.5"/>
+<line class="flow" x1="820" y1="180" x2="800" y2="62" stroke="#E4E4E7" stroke-width="1.5"/>
+<line class="flow" x1="820" y1="180" x2="925" y2="100" stroke="#E4E4E7" stroke-width="1.5"/>
+<line class="flow" x1="820" y1="180" x2="948" y2="215" stroke="#E4E4E7" stroke-width="1.5"/>
+<line class="flow" x1="820" y1="180" x2="885" y2="315" stroke="#E4E4E7" stroke-width="1.5"/>
+<line class="flow" x1="820" y1="180" x2="765" y2="295" stroke="#E4E4E7" stroke-width="1.5"/>
+<line class="flow" x1="820" y1="180" x2="700" y2="205" stroke="#E4E4E7" stroke-width="1.5"/>
+<line x1="710" y1="105" x2="800" y2="62" stroke="#E4E4E7" stroke-width="1" stroke-opacity="0.6"/>
+<line x1="800" y1="62" x2="925" y2="100" stroke="#E4E4E7" stroke-width="1" stroke-opacity="0.6"/>
+<line x1="925" y1="100" x2="948" y2="215" stroke="#E4E4E7" stroke-width="1" stroke-opacity="0.6"/>
+<line x1="948" y1="215" x2="885" y2="315" stroke="#E4E4E7" stroke-width="1" stroke-opacity="0.6"/>
+<line x1="885" y1="315" x2="765" y2="295" stroke="#E4E4E7" stroke-width="1" stroke-opacity="0.6"/>
+<line x1="765" y1="295" x2="700" y2="205" stroke="#E4E4E7" stroke-width="1" stroke-opacity="0.6"/>
+<line x1="700" y1="205" x2="710" y2="105" stroke="#E4E4E7" stroke-width="1" stroke-opacity="0.6"/>
+<circle r="3" fill="#0891B2" filter="url(#glow)"><animateMotion dur="2.20s" begin="0.00s" repeatCount="indefinite" path="M820 180 L710 105"/><animate attributeName="opacity" dur="2.20s" begin="0.00s" repeatCount="indefinite" keyTimes="0;0.12;0.88;1" values="0;1;1;0"/></circle>
+<circle r="3" fill="#0891B2" filter="url(#glow)"><animateMotion dur="2.55s" begin="0.45s" repeatCount="indefinite" path="M800 62 L820 180"/><animate attributeName="opacity" dur="2.55s" begin="0.45s" repeatCount="indefinite" keyTimes="0;0.12;0.88;1" values="0;1;1;0"/></circle>
+<circle r="3" fill="#0891B2" filter="url(#glow)"><animateMotion dur="2.90s" begin="0.90s" repeatCount="indefinite" path="M820 180 L925 100"/><animate attributeName="opacity" dur="2.90s" begin="0.90s" repeatCount="indefinite" keyTimes="0;0.12;0.88;1" values="0;1;1;0"/></circle>
+<circle r="3" fill="#0891B2" filter="url(#glow)"><animateMotion dur="3.25s" begin="1.35s" repeatCount="indefinite" path="M948 215 L820 180"/><animate attributeName="opacity" dur="3.25s" begin="1.35s" repeatCount="indefinite" keyTimes="0;0.12;0.88;1" values="0;1;1;0"/></circle>
+<circle r="3" fill="#0891B2" filter="url(#glow)"><animateMotion dur="3.60s" begin="1.80s" repeatCount="indefinite" path="M820 180 L885 315"/><animate attributeName="opacity" dur="3.60s" begin="1.80s" repeatCount="indefinite" keyTimes="0;0.12;0.88;1" values="0;1;1;0"/></circle>
+<circle r="3" fill="#0891B2" filter="url(#glow)"><animateMotion dur="3.95s" begin="2.25s" repeatCount="indefinite" path="M765 295 L820 180"/><animate attributeName="opacity" dur="3.95s" begin="2.25s" repeatCount="indefinite" keyTimes="0;0.12;0.88;1" values="0;1;1;0"/></circle>
+<circle r="3" fill="#0891B2" filter="url(#glow)"><animateMotion dur="4.30s" begin="2.70s" repeatCount="indefinite" path="M820 180 L700 205"/><animate attributeName="opacity" dur="4.30s" begin="2.70s" repeatCount="indefinite" keyTimes="0;0.12;0.88;1" values="0;1;1;0"/></circle>
+
+<circle cx="820" cy="180" r="34" fill="none" stroke="#2563EB" stroke-opacity="0.55" stroke-width="1.5" stroke-dasharray="3 7"><animateTransform attributeName="transform" type="rotate" from="0 820 180" to="360 820 180" dur="16s" repeatCount="indefinite"/></circle>
+<circle cx="820" cy="180" r="54" fill="none" stroke="#7C3AED" stroke-opacity="0.4" stroke-width="1" stroke-dasharray="2 9"><animateTransform attributeName="transform" type="rotate" from="360 820 180" to="0 820 180" dur="26s" repeatCount="indefinite"/></circle>
+<circle r="3.5" fill="#7C3AED" filter="url(#glow)"><animateMotion dur="9s" repeatCount="indefinite" path="M874 180 A54 54 0 1 1 766 180 A54 54 0 1 1 874 180"/></circle>
+<circle class="sig" style="animation-delay:0.0s" cx="710" cy="105" r="6.5" fill="#FFFFFF" stroke="#52525B" stroke-width="2"/>
+<text x="710" y="91" text-anchor="middle" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" letter-spacing="1" fill="#71717A">rss</text>
+<circle class="sig" style="animation-delay:0.4s" cx="800" cy="62" r="6.5" fill="#FFFFFF" stroke="#52525B" stroke-width="2"/>
+<text x="800" y="48" text-anchor="middle" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" letter-spacing="1" fill="#71717A">api</text>
+<circle class="sig" style="animation-delay:0.8s" cx="925" cy="100" r="6.5" fill="#FFFFFF" stroke="#52525B" stroke-width="2"/>
+<text x="925" y="86" text-anchor="middle" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" letter-spacing="1" fill="#71717A">llm</text>
+<circle class="sig" style="animation-delay:1.2s" cx="948" cy="215" r="6.5" fill="#FFFFFF" stroke="#52525B" stroke-width="2"/>
+<text x="948" y="201" text-anchor="middle" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" letter-spacing="1" fill="#71717A">sql</text>
+<circle class="sig" style="animation-delay:1.6s" cx="885" cy="315" r="6.5" fill="#FFFFFF" stroke="#52525B" stroke-width="2"/>
+<text x="885" y="301" text-anchor="middle" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" letter-spacing="1" fill="#71717A">ui</text>
+<circle class="sig" style="animation-delay:2.0s" cx="765" cy="295" r="6.5" fill="#FFFFFF" stroke="#52525B" stroke-width="2"/>
+<circle class="sig" style="animation-delay:2.4s" cx="700" cy="205" r="6.5" fill="#FFFFFF" stroke="#52525B" stroke-width="2"/>
+<circle class="core" cx="820" cy="180" r="12" fill="#2563EB" filter="url(#glow)"/>
+<circle cx="820" cy="180" r="4" fill="#FFFFFF"/>
 </svg>

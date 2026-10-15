@@ -26,29 +26,53 @@ Status: in active development.
 
 ## Other work
 
-- **[DAWSCAPE](http://dawscape.fun)** (Laravel). A complete web application: a digital escape room for XTART students, played from a phone. Nine sequential challenges mix riddles, physical clue hunting, QR codes and interactive puzzles. It includes an admin panel, a real-time leaderboard made to be projected on a TV, personalized diplomas and a rating system, all under a terminal aesthetic.
-- **Portfolio** (Next.js, TypeScript, Tailwind CSS). Personal site that presents my projects and work, built around a few Apple-inspired principles: generous space, strong hierarchy, subtle motion.
+<table>
+  <tr>
+    <td width="50%">
+      <a href="http://dawscape.fun">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-dawscape-dark.svg">
+          <img alt="DAWSCAPE (Laravel): a digital escape room for XTART students, played from a phone." src="assets/card-dawscape-light.svg" width="100%">
+        </picture>
+      </a>
+    </td>
+    <td width="50%">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/card-portfolio-dark.svg">
+        <img alt="Portfolio (Next.js, TypeScript, Tailwind CSS): personal site with Apple-inspired principles." src="assets/card-portfolio-light.svg" width="100%">
+      </picture>
+    </td>
+  </tr>
+</table>
+
+DAWSCAPE also includes personalized diplomas and a rating system, all under a terminal aesthetic.
 
 ## Stack
 
-What I use in projects today.
-
-| Layer | In use |
-| :-- | :-- |
-| Interface | TypeScript, JavaScript, React, Next.js, Tailwind CSS |
-| Backend | Python, FastAPI, Node.js, Laravel |
-| Data | SQL, PostgreSQL, Supabase |
-| Applied AI | Content classification and summarization (NotiTech) |
-| Delivery | Docker, Git, GitHub |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img alt="Stack: TypeScript, JavaScript, React, Next.js, Tailwind CSS, Node.js, Laravel, Docker, Python, FastAPI, PostgreSQL, Supabase, SQL, Git, GitHub, AI pipelines." src="assets/stack-light.svg" width="100%">
+</picture>
 
 ## Exploring
-
-Beyond what I use in projects today.
 
 - **AI systems.** LLMs with embeddings and RAG to work over real data, and agents that can use tools.
 - **Infrastructure.** Linux and deployment: running what I build, not only writing it.
 - **Cybersecurity.** Where I want to specialize longer term.
 
-## Contact
+## Activity
 
-[LinkedIn](https://www.linkedin.com/in/yoseth-trejos) · [yosethtrejos16@gmail.com](mailto:yosethtrejos16@gmail.com)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yoseth16/Yoseth16/output/github-snake-dark.svg">
+  <img alt="Contribution graph eaten by a snake." src="https://raw.githubusercontent.com/Yoseth16/Yoseth16/output/github-snake.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
+  <img alt="Let's build something together." src="assets/footer-light.svg" width="100%">
+</picture>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/yoseth-trejos">LinkedIn</a> ·
+  <a href="mailto:yosethtrejos16@gmail.com">yosethtrejos16@gmail.com</a>
+</p>

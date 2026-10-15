@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="170" viewBox="0 0 1000 170" role="img" aria-label="Let's build something together.">
+<title>Let's build something together</title>
+<defs><clipPath id="frame"><rect width="1000" height="170" rx="20"/></clipPath>
+<linearGradient id="t" gradientUnits="userSpaceOnUse" x1="300" y1="0" x2="700" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset="0.5" stop-color="#5B8DFF"/><stop offset="1" stop-color="#A78BFA"/></linearGradient></defs>
+<rect width="1000" height="170" rx="20" fill="#0A0A0B"/>
+<g clip-path="url(#frame)">
+<path d="M0 118 q125.0 -26 250.0 0 t250.0 0 q125.0 -26 250.0 0 t250.0 0 q125.0 -26 250.0 0 t250.0 0 q125.0 -26 250.0 0 t250.0 0 q125.0 -26 250.0 0 t250.0 0 L2500 170 L0 170 Z" fill="#A78BFA" fill-opacity="0.22"><animateTransform attributeName="transform" type="translate" from="-500 0" to="0 0" dur="11s" repeatCount="indefinite"/></path>
+<path d="M0 128 q100.0 -22 200.0 0 t200.0 0 q100.0 -22 200.0 0 t200.0 0 q100.0 -22 200.0 0 t200.0 0 q100.0 -22 200.0 0 t200.0 0 q100.0 -22 200.0 0 t200.0 0 L2000 170 L0 170 Z" fill="#5B8DFF" fill-opacity="0.28"><animateTransform attributeName="transform" type="translate" from="0 0" to="-400 0" dur="8s" repeatCount="indefinite"/></path>
+<path d="M0 140 q62.5 -14 125.0 0 t125.0 0 q62.5 -14 125.0 0 t125.0 0 q62.5 -14 125.0 0 t125.0 0 q62.5 -14 125.0 0 t125.0 0 q62.5 -14 125.0 0 t125.0 0 q62.5 -14 125.0 0 t125.0 0 q62.5 -14 125.0 0 t125.0 0 L1750 170 L0 170 Z" fill="#22D3EE" fill-opacity="0.3"><animateTransform attributeName="transform" type="translate" from="-250 0" to="0 0" dur="6s" repeatCount="indefinite"/></path>
+
+</g>
+<text x="500" y="76" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="-1.2" fill="url(#t)">Let's build something together.</text>
+<rect x="0.5" y="0.5" width="999" height="169" rx="20" fill="none" stroke="#27272A"/>
+</svg>
