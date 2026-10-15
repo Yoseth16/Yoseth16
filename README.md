@@ -1,3 +1,5 @@
+English | [Español](README.es.md)
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <img alt="Yoseth Lopez. I build web products end to end, from the data pipeline to the interface." src="assets/hero-light.svg" width="100%">
@@ -11,6 +13,8 @@ I'm also completing a Higher Degree in Web Application Development (DAW).
 
 ### NotiTech
 
+[notitech.tech](https://notitech.tech)
+
 Technology content is spread across too many sources to follow. NotiTech is a tech radar: it collects content from multiple sources and uses AI to classify and summarize it, turning a raw stream into organized, readable information.
 
 <picture>
@@ -22,7 +26,7 @@ Technology content is spread across too many sources to follow. NotiTech is a te
 - **AI as a stage.** Classification and summarization are one step of the pipeline, and the results are stored in PostgreSQL through Supabase.
 - **Separated services.** A FastAPI backend sits between the data and a Next.js / TypeScript frontend, with Docker for the environment.
 
-Status: in active development.
+Status: in production · in active development.
 
 ## Other work
 
@@ -37,15 +41,18 @@ Status: in active development.
       </a>
     </td>
     <td width="50%">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/card-portfolio-dark.svg">
-        <img alt="Portfolio (Next.js, TypeScript, Tailwind CSS): personal site with Apple-inspired principles." src="assets/card-portfolio-light.svg" width="100%">
-      </picture>
+      <a href="https://yosethlopez.es">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-portfolio-dark.svg">
+          <img alt="Portfolio (Next.js, TypeScript, Tailwind CSS): personal site with Apple-inspired principles." src="assets/card-portfolio-light.svg" width="100%">
+        </picture>
+      </a>
     </td>
   </tr>
 </table>
 
-DAWSCAPE also includes personalized diplomas and a rating system, all under a terminal aesthetic.
+<!-- TODO(Yoseth): add which specific part of DAWSCAPE you built, if you want it stated. Not filled in on purpose. -->
+DAWSCAPE also includes personalized diplomas and a rating system, all under a terminal aesthetic. Team project of 8 classmates at XTART; I was one of the three main developers.
 
 ## Stack
 
@@ -73,6 +80,7 @@ DAWSCAPE also includes personalized diplomas and a rating system, all under a te
 </picture>
 
 <p align="center">
+  <a href="https://yosethlopez.es">yosethlopez.es</a> ·
   <a href="https://www.linkedin.com/in/yoseth-trejos">LinkedIn</a> ·
   <a href="mailto:yosethtrejos16@gmail.com">yosethtrejos16@gmail.com</a>
 </p>
